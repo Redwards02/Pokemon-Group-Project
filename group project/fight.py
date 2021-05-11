@@ -189,7 +189,7 @@ class Nabomb(Pokemon):
             return "Nabomb used Fiery Inferno"
 
     def getDescription(self):
-        return "Hes a bomb"
+        return "Watch out! He might go off!"
 
 class Gelator(Pokemon):
     def __init__(self, name = "Gelator", types='Water', atk=30, defense=3, health=50, img = gelatorImg, moveNames = ["Water Gun", "Gelatinous Wave", "Lime Jelly Power", "JelliBomb"],moveImgs = ['WaterGun.png', 'GelatnousWave.png','LimeJellyPower.png','JelliBomb.png']):
@@ -207,7 +207,7 @@ class Gelator(Pokemon):
             return "Gelator used JelliBomb"
 
     def getDescription(self):
-        return "Knockoff Ditto, Caydens unoriginal"
+        return "He is blue rasberry flavor!"
 
 class Kroaken(Pokemon):
     def __init__(self,name = 'Kroaken', types='Grass', atk=30, defense=5, health=50, img = kroakenImg, moveNames = ["Vine Whip", "Pine Cone Throw", "Oaky Venom", "Log Smash"], moveImgs =['VineWhip.png','PineConeThrow.png','OakyVenom.png','LogSmash.png'], ballImg = "KroakenBall.png"):
@@ -227,7 +227,7 @@ class Kroaken(Pokemon):
             return "Kroaken used Log Smash"
 
     def getDescription(self):
-        return "Hes a Tree Squid"
+        return "A kraken that has rooted itself!"
 
 class Eric(Pokemon):
     def __init__(self,name = 'Eric', types='Ghost', atk=30, defense=1, health=50, img = ericImg, moveNames = ["Spirit Bomb", "Absentee Father", "Caspers Revenge", "Spooky Mist"], moveImgs = ['SpiritBomb.png', 'AbsentFather.png','CaspersRevenge.png','SpookyMist.png']):
@@ -245,7 +245,7 @@ class Eric(Pokemon):
             return "Eric used Spooky Mist"
 
     def getDescription(self):
-        return "RIP Eric"
+        return "Had a rough life, not much to say"
 
 class Nachos(Pokemon):
     def __init__(self,name = 'Nachos', types='Psychic', atk=30, defense=5, health=50, img = nachosImg, moveNames = ["Tortilla Shuriken","Cheesy Chips", "Nuke Bell Grande", "Spicy Jalepeno Surprise"],moveImgs = ['TortillaShuriken.png','CheesyChips.png','NukeBellGrande.png','SpicyJalepenoSuprise.png']):
@@ -263,7 +263,7 @@ class Nachos(Pokemon):
         elif attackIndex == 3:
             return "Nachos used Spicy Jalepeno Surprise"
     def getDescription(self):
-        return "Hes a nacho"
+        return "His favorite food in the world is nachos!"
 
 class Brickdoop(Pokemon):
     def __init__(self,name = 'Brickdoop', types='Rock', atk=30, defense=3, health=50, img = brickdoopImg, moveNames = ["Brick Throw", "Big Brick", "Brick Bomb", "Brick Smash"], moveImgs = ['BrickThrow.png','BigBrick.png','BrickBomb.png','BrickSmash.png']):
@@ -282,7 +282,7 @@ class Brickdoop(Pokemon):
             return "Brickdoop used Brick Smash"
 
     def getDescription(self):
-        return "Hes a brick"
+        return "Watch out hes got a brick!"
 
 class Bottlerocker(Pokemon):
     def __init__(self, name = 'Bottlerocker', types='Flying', atk=30, defense=6, health=50, img = bottlerockerImg, moveNames = ["Big Bang", "Gust", "Supersonic Boom", "Air Strike"], moveImgs = ['BigBang.png','Gust.png','SonicBoom.png','AirStrike.png']):
@@ -301,7 +301,7 @@ class Bottlerocker(Pokemon):
             return "Bottlerocker used Air Strike"
 
     def getDescription(self):
-        return "Hes a bottlerocket, Caydens favorite"
+        return "A firework with a personality!"
 
 class Dracolich(Pokemon):
     def __init__(self,name = 'Dracolich', types='Dragon', atk=30, defense=4, health=50, img = dracolichImg, moveNames = ["Dragon Dance", "Fire Breath", "Dragon Hammer", "Desolation of Smaug"], moveImgs = ['DragonDance.png', 'FireBreath.png','DragonHammer.png','DesolationOfSmough.png']):
@@ -320,4 +320,5 @@ class Dracolich(Pokemon):
             return "Dracolich used Desolation of Smaug"
 
     def getDescription(self):
-        return "Hes a dracolich, Caydens unoriginal"
+        return "A dragon that has risen from the dead!"
+        
